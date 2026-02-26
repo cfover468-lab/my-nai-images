@@ -1,0 +1,87 @@
+{
+  "anime": {
+    "name": "精致动漫",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 6,
+    "noise": "native",
+    "smea": true,
+    "variety": false,
+    "suffix": "{{{masterpiece}}}, {best quality}, amazing quality, very aesthetic, anime style, detailed",
+    "neg": "lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, blurry, poorly drawn, bad face, distorted face"
+  },
+  "glossy": {
+    "name": "清透润泽",
+    "sampler": "k_dpmpp_2m",
+    "steps": 28,
+    "scale": 6,
+    "noise": "native",
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:luohuarumeng}, {artist:ciloranko}, clean style, soft lighting, {glossy skin}, {wet skin}, smooth skin, delicate features, {detailed eyes}, refined details, beautiful lighting, elegant",
+    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, dry skin, rough skin, matte skin, dirty, messy, gritty, dark theme"
+  },
+  "game": {
+    "name": "游戏立绘",
+    "sampler": "k_dpmpp_2m",
+    "steps": 28,
+    "scale": 7,
+    "noise": "native",
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:lack}, {artist:rella}, {artist:neco}, official art, game cg, vibrant colors, high contrast, sharp lines, clean lineart, intricate details, dynamic, glossy",
+    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, dull colors, muted colors, soft lines, sketchy, watercolor, painterly, messy background"
+  },
+  "tension": {
+    "name": "肢体张力",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 6.5,
+    "noise": "karras",
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:miazi}, detailed, high quality, {dynamic pose}, {glistening skin}, {sweat}, dramatic angle, expressive face, detailed anatomy, soft shading",
+    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, stiff pose, static, flat lighting, dry skin, simple background"
+  },
+  "impasto": {
+    "name": "精致厚涂",
+    "sampler": "k_euler",
+    "steps": 28,
+    "scale": 7,
+    "noise": "karras",
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:ratatatat74}, detailed, high quality, {{{glistening skin}}}, {{sweat}}, {wet skin}, {oily skin}, {detailed skin}, [skin texture], {{dramatic lighting}}, {{high contrast}}, {volumetric light}, {rim lighting}, {warm lighting}, soft shading, {detailed background}",
+    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, flat lighting, flat shading, cel shading, simple shading, dry skin, matte skin, soft lighting, overexposed, washed out, sketch, lineart, outline"
+  },
+  "c_1772124377551": {
+    "name": "旧",
+    "suffix": "[[[artist:dishwasher1910]]], {{yd_(orange_maru)}}, [artist:ciloranko], [artist:sho_(sho_lwlw)], [ningen_mame], year_2025, newest",
+    "neg": "{{{worst_quality}}}, {{{low_quality}}}, {{{lowres}}},\n{{{bad_hands}}}, {{{poorly_drawn_hands}}}, {{{fused_fingers}}}, {{{wrong_fingers}}},\n{{bad_face}}, {{poorly_drawn_face}}, {{blurry_face}}, {{asymmetrical_eyes}}, {{deformed_mouth}}, {{malformed_jaw}}, {{disfigured_teeth}},\n{{bad_anatomy}}, {{bad_proportions}}, {{anatomical_nonsense}},\n{{floating_limbs}}, {{disconnected_limbs}}, {{body_merge}}, {{fused_body}},\n{{bad_genitals}}, {{poorly_drawn_genitals}}, {{fused_genitals}}, {{misplaced_genitals}}, {{asymmetrical_breasts}}, {{bad_nipples}}, {{bad_penis}}, {{bad_pussy}}, {{bad_anus}},\n{{fused_clothing}}, {{clothing_clipping}}, {{poorly_drawn_clothing}},\n{{bad_perspective}}, {{inconsistent_scale}}, {{spatial_error}},\n{{bad_lighting}}, {{bad_shadow}}, {{inconsistent_lighting}},\nblurry, jpeg_artifacts, compression_artifacts, unfinished, error,\nwatermark, signature, text, logo, username,",
+    "sampler": "k_euler",
+    "steps": 30,
+    "scale": 10,
+    "smea": false,
+    "variety": false
+  },
+  "c_1772124897327": {
+    "name": "2.5D",
+    "suffix": "{{2.5D}},{artist:ningen_mame},artist:ask(askzy),artist:ciloranko,{artist:sho_(sho_lwlw)},{{artist:as109}},wlop,artist:wanke,day, vivid, best light and shadow effects, extremely detailed 8k wallpaper, game cg, amazing beauty, detailed characters，{best quality, very aesthetic, year2025}, newest,",
+    "neg": "{{{worst_quality}}}, {{{low_quality}}}, {{{lowres}}},\n{{{bad_hands}}}, {{{poorly_drawn_hands}}}, {{{fused_fingers}}}, {{{wrong_fingers}}},\n{{bad_face}}, {{poorly_drawn_face}}, {{blurry_face}}, {{asymmetrical_eyes}}, {{deformed_mouth}}, {{malformed_jaw}}, {{disfigured_teeth}},\n{{bad_anatomy}}, {{bad_proportions}}, {{anatomical_nonsense}},\n{{floating_limbs}}, {{disconnected_limbs}}, {{body_merge}}, {{fused_body}},\n{{bad_genitals}}, {{poorly_drawn_genitals}}, {{fused_genitals}}, {{misplaced_genitals}}, {{asymmetrical_breasts}}, {{bad_nipples}}, {{bad_penis}}, {{bad_pussy}}, {{bad_anus}},\n{{fused_clothing}}, {{clothing_clipping}}, {{poorly_drawn_clothing}},\n{{bad_perspective}}, {{inconsistent_scale}}, {{spatial_error}},\n{{bad_lighting}}, {{bad_shadow}}, {{inconsistent_lighting}},\nblurry, jpeg_artifacts, compression_artifacts, unfinished, error,\nwatermark, signature, text, logo, username",
+    "sampler": "k_euler",
+    "steps": 23,
+    "scale": 5,
+    "smea": true,
+    "variety": false
+  },
+  "c_1772126333317": {
+    "name": "萝北悠",
+    "suffix": "{masterpiece, best quality, absurdres}, {ethereal digital illustration, 2.5D, painterly style}, {fine lineart}, {{xianxia, guofeng}}, {{traditional chinese ink wash elements, highly detailed ink splashes}},\n {{goddess, cold elegant classic chinese beauty}}, {{young woman}},{{cowboy shot}}, {{from slightly above}}, {{three-quarter view}}, {{half lying, leaning back on one arm}},\n{{{beautiful detailed grey phoenix eyes}}}, {{looking at viewer}}, {{serene composure}}, {{slight curve of lips}}, {{delicate oval face}}, {{matte porcelain skin}},\n{{long flowing black hair, center-parted, loose strands framing face}}, {{single silver hairpin}},\n{{{multilayered hanfu in white and ice blue silk}}}, {{translucent sheer outer robe}}, {{clothing draping off one shoulder}}, {{wide flowing sleeves}}, {{intricate silver thread embroidery}}, {{{long ethereal ribbons floating in air}}},\n\n{{{minimalist misty white background}}}, {{{volumetric god rays}}}, {{soft rim light}}, {{cinematic lighting}}, {{physically-based rendering}}, {{{floating petals}}},\n{{color palette of white and ice blue, low saturation}},\n{{no oily or shiny skin}}, {{no k-pop, no korean style}}, {{modest breasts}}",
+    "neg": "​​​<em>full body:1.4</em>, <em>distant:1.5</em>, <em>long shot:1.5</em>, <em>far away:1.4</em>, <em>feet, shoes:1.2</em>, <em>small face:1.4</em>, <em>blurry face:1.5</em>,\nlowres, bad anatomy, <em>bad face:1.3</em>, <em>deformed mouth:1.4</em>, <em>underbite:1.4</em>, <em>protruding jaw:1.4</em>, <em>malformed jaw:1.4</em>, <em>disfigured teeth:1.4</em>, <em>asymmetry face:1.2</em>,\n<em>flat shading, flat color:1.5</em>, <em>lineart, sketch:1.3</em>, <em>manga, anime, comic, cartoonish face:1.4</em>, \n<em>simple eyes:1.6</em>, <em>2D eyes:1.5</em>, <em>monochrome eyes:1.2</em>, <em>huge eyes:1.3</em>,\n<em>flat lighting:1.4</em>, <em>dull skin:1.3</em>, <em>washed out:1.2</em>, \n<em>modern clothing, sneakers, hoodie, T-shirt:1.3</em>, <em>modern interior, plastic:1.2</em>,\n<em>huge blush:1.4</em>, <em>anime blush:1.4</em>, <em>exaggerated expression:1.2</em>, <em>mouth wide open:1.1</em>,\nbad proportions, gross proportions, blurry, jpeg artifacts, watermark, signature",
+    "sampler": "k_dpmpp_2m",
+    "steps": 28,
+    "scale": 4.5,
+    "smea": true,
+    "variety": false
+  }
+}
